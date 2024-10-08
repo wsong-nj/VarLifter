@@ -1,0 +1,56 @@
+     
+ @@@@@@@@@@@1wrong 1missing analysis (variable out of useage)
+
+    address public ceoAddress;//slot(0x0)
+    address public cooAddress;//slot(0x1)
+    bool public paused = false;//slot(0x1)
+    address public districtContractAddress;//slot(0x2)
+    DistrictsCoreInterface address public districtsCore;  //slot(0x3)
+
+
+ struct Narco {        
+        string genes;  
+        string narcoName;      
+        uint16 [9] stats;
+        uint16 weedTotal;
+        uint16 cokeTotal;
+        uint8 [4] consumables;  
+        uint16 [6] skills;    
+        uint256 [6] cooldowns;  
+        uint8 homeLocation;
+    } 
+    Narco[] narcos;  //slot(0x4) (wrong)
+    mapping (uint256 => address) public narcoIndexToOwner; //slot(0x5)
+    mapping (address => uint256) ownershipTokenCount;//slot(0x6)
+    mapping (uint256 => address) public  narcoIndexToApproved;//slot(0x7)
+  
+
+
+
+  string public name = "DopeRaider"; //slot(0x9)
+   string public symbol = "DOPR"; //slot(0xa)
+    
+
+ SaleClockAuction public saleAuction;  //slot(0xb)
+
+
+    uint256 public promoCreationLimit = 200;  //slot(0xc)
+    uint256 public gen0CreationLimit = 5000;  //slot(0xd)
+    uint256 public gen0StartingPrice = 1 ether;  //slot(0xe)
+    uint256 public gen0EndingPrice = 20 finney; //slot(0xf)
+    uint256 public gen0AuctionDuration = 1 days; //slot(0x10)
+    uint256 public promoCreatedCount;  //slot(0x11)
+    uint256 public gen0CreatedCount;  //slot(0x12)
+
+
+
+
+
+   address public newContractAddress;//slot(0x13)
+    bool public gamePaused = true;//slot(0x13)
+    uint256 public changeIdentityNarcoRespect = 30;  //slot(0x14)
+    uint256 public personalisationCost = 0.01 ether;  //slot(0x15)
+    uint256 public respectRequiredToRecruit = 150;//slot(0x16)
+    uint256 public growCost = 0.003 ether;//slot(0x17)
+    uint256 public refineCost = 0.003 ether;//slot(0x18)
+    @@26@@

@@ -1,0 +1,11 @@
+MANIFEST.in
+gui.py
+input_bytecode
+main.py
+output_VaTy.txt
+setup.py
+VarLifter.egg-info/PKG-INFO
+VarLifter.egg-info/SOURCES.txt
+VarLifter.egg-info/dependency_links.txt
+VarLifter.egg-info/entry_points.txt
+VarLifter.egg-info/top_level.txt

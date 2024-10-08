@@ -1,0 +1,91 @@
+Output for 11_runtime_bytecode.txt:
+
+
+<0x8da5cb5b> address //slot(0x0)
+
+<0x18160ddd> uint256 //slot(0x2)
+
+<0xf4ed0f46> uint256 //slot(0x2)
+
+<0x4a79d50c> ['string //slot(0x3)']
+
+<0xe9e972d9> ['string //slot(0x4)']
+
+<0x16915743> ['string //slot(0x5)']
+
+<0x28171882> ['string //slot(0x6)']
+
+<0x118934cc> uint256 //slot(0x7)
+
+<0x7cc4e55f> uint256 //slot(0x8)
+
+<0x220f1202> address //slot(0x9)
+
+<0xfbc5db95> uint256 //slot(0xa)
+
+<0x45cb3f4d> uint256 //slot(0xc)
+
+<0x521b20ec> address //slot(0xd)
+
+<0x52ffeb30> uint256 //slot(0xe)
+
+<0xda4493f6> uint256 //slot(0xf)
+
+<0x79172da> bool //slot(0x10)
+
+<0xb682c019> bool //slot(0x10)
+
+<0x4acefeb1> uint256 //slot(0x11)
+
+<0xe3224ac3> ['mapping(address => (u)int256/bytes32) //slot(0x12)']
+
+<0xe9361d34> uint256 //slot(0x15)
+
+<0x63263858> uint256 //slot(0x16)
+
+<0x68447c93> address //slot(0x17)
+
+<0x763f34e> uint256 //slot(0x18)
+
+uint256 slot(0x1)
+
+missing slot(0xb)
+
+<0x95ea7b3>:['local uint256 value=0x13']
+
+<0x15336f80>:['Using State(0x5)', 'Using State(0x2)', 'Using State(0x16)', 'string private //slot(0x14)', 'local uint256 value=0x2', 'local uint256 value=0x2710', 'local uint256 value=0x12', 'storage(0x5)-write', 'storage(0x10)-write', 'storage(0x11)-write']
+
+<0x23b872dd>:['Using State(0x9)', 'Using State(0x12)', 'local uint256 value=0x12']
+
+<0x418939c0>:['Using State(0x9)', 'Using State(0xc)', 'Using State(0x17)', 'Using State(0xd)', 'Using State(0x0)', 'Using State(0x12)', 'local uint256 value=0x2710', 'local uint256 value=0x12', 'storage(0x10)-write', 'storage(0xc)-write', 'storage(0xd)-write']
+
+<0x42966c68>:['Using State(0x9)', 'Using State(0x2)', 'Using State(0x12)', 'local uint256 value=0x12', 'storage(0x2)-write']
+
+<0x70a08231>:['Using State(0x12)', 'local uint256 value=0x12']
+
+<0x79cc6790>:['Using State(0x9)', 'Using State(0x2)', 'mapping(address => mapping(address => uint256)) //slot(0x13)', 'local uint256 value=0x12', 'local uint256 value=0x13', 'storage(0x2)-write']
+
+<0x9435c887>:['storage(0x10)-write', 'storage(0xc)-write', 'storage(0xd)-write']
+
+<0xa6f9dae1>:['storage(0x0)-write']
+
+<0xa9059cbb>:['Using State(0x9)', 'Using State(0x12)', 'local uint256 value=0x12']
+
+<0xb686e44c>:[]
+
+<0xbf36c5b0>:['Using State(0x8)', 'Using State(0xc)', 'Using State(0x9)', 'storage(0xb)-write', 'storage(0x8)-write', 'storage(0x9)-write', 'storage(0xa)-write', 'global variable: timestamp', 'global variable: timestamp']
+
+<0xc01569f9>:['Using State(0x7)', 'Using State(0x15)', 'Using State(0x17)', 'Using State(0x9)', 'Using State(0x0)', 'Using State(0x12)', 'local uint256 value=0x2710', 'local uint256 value=0x12', 'local uint256 value=0x8fc', 'storage(0xb)-write', 'storage(0x8)-write', 'storage(0x9)-write']
+
+<0xdd62ed3e>:['mapping(address => mapping(address => uint256)) //slot(0x13)', 'local uint256 value=0x13']
+
+<0xe7e10490>:['storage(0xb)-write', 'storage(0x8)-write', 'storage(0x9)-write']
+
+<0xecfc7ecc>:['Using State(0xc)', 'Using State(0xd)', 'local uint256 value=0x8fc', 'storage(0x10)-write', 'storage(0xc)-write', 'storage(0xd)-write', 'storage(0xe)-write', 'global variable: timestamp', 'global variable: timestamp']
+**23**##26##
+Time Consumption: 8.143230 S
+
+==============================================================================================================================
+
+
+

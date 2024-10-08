@@ -1,0 +1,28 @@
+Output for 8_runtime_bytecode.txt:
+
+
+<0x18160ddd> uint256 //slot(0x0)
+
+<0x6fdde03> ['string //slot(0x3)']
+
+<0x313ce567> uint8 //slot(0x4)
+
+<0x95d89b41> ['string //slot(0x5)']
+
+<0x54fd4d50> ['string //slot(0x6)']
+
+<0x95ea7b3>:['local uint256 value=0x2']
+
+<0x23b872dd>:['mapping(address => mapping(address => uint256)) //slot(0x2)', 'local uint256 value=0x2']
+
+<0x3177029f>:['local uint256 value=0x2']
+
+<0x70a08231>:['mapping(address => uint) private //slot(0x1)']
+
+<0xa9059cbb>:['mapping(address => uint) private //slot(0x1)']
+
+<0xdd62ed3e>:['mapping(address => mapping(address => uint256)) //slot(0x2)', 'local uint256 value=0x2']
+
+Time Consumption: 0.321208 S
+**7**##7##
+

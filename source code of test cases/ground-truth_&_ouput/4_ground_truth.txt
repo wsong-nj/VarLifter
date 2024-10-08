@@ -1,0 +1,48 @@
+      @@1missing 2wrong
+    address public ceoAddress=0xC229F1e3D3a798725e09dbC6b31b20c07b95543B;//slot(0x0)
+    address public ctoAddress=0x01569f2D20499ad013daE86B325EE30cB582c3Ba;//slot(0x1)
+
+
+        mapping (uint256 => uint256) public dna1; //slot(0x2)
+        mapping (uint256 => uint256) public dna2; //slot(0x3)
+        mapping (uint256 => uint256) public dna3; //slot(0x4)
+        mapping (uint256 => uint256) public dna4; //slot(0x5)
+        mapping (uint256 => uint256) public dna5; //slot(0x6)
+        mapping (uint256 => uint256) public dna6; //slot(0x7)
+
+
+    struct Horse {
+        uint64 birthTime;
+        uint64 unproductiveEndBlock;
+        uint32 mareId;
+        uint32 stallionId;
+        uint32 stallionWithId;
+        uint16 unproductiveIndex;
+        uint16 generation;
+    }
+
+    uint32[5] public sterile = [
+        uint32(15 minutes),
+        uint32(120 minutes),
+        uint32(480 minutes),
+        uint32(1800 minutes),
+        uint32(3000 minutes)
+    ];   //slot(0x8)  (missing)
+
+    uint256 public secondsPerBlock = 15;//slot(0x9)
+    Horse[] horses;//slot(0xa)   (wrong)
+    mapping (uint256 => address) public horseOwnerIndex;//slot(0xb)
+    mapping (uint256 => uint256) public horseIndexPrice;  //slot(0xc)
+    mapping (uint256 => bool)  horseIndexForSale;//slot(0xd)  (wrong)
+    mapping (address => uint256) tokenOwnershipCount;//slot(0xe)
+   uint256 public saleFee = 20;//slot(0xf)
+   uint256 public BirthFee = 4 finney;//slot(0x10)
+
+
+
+    uint256 public pregnantHorses;//slot(11)
+
+
+    uint256 public  GEN_0_LIMIT = 20000;//slot(12)
+    uint256 public gen0Count;//slot(13)
+    @@20@@

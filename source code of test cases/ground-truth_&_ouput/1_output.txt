@@ -1,0 +1,129 @@
+Output for 1_runtime_bytecode.txt:
+
+
+<0xbf7e214f> address //slot(0x0)
+
+<0x8da5cb5b> address //slot(0x1)
+
+<0x9166cba4> address //slot(0x2)
+
+<0x71bafb5> address //slot(0x3)
+
+<0xf8a771e> address //slot(0x4)
+
+<0x7bd2bea7> address //slot(0x5)
+
+<0x12d43a51> address //slot(0x6)
+
+<0x67550a35> address //slot(0x7)
+
+<0xd741e2f9> address //slot(0x8)
+
+<0xace237f5> address //slot(0x9)
+
+<0xfd221031> address //slot(0xa)
+
+<0xf03c7c6e> address //slot(0xb)
+
+<0x509bf2bf> uint256 //slot(0xc)
+
+<0x355274ea> uint256 //slot(0xd)
+
+<0xab0783da> uint256 //slot(0xe)
+
+<0x99c8d556> uint256 //slot(0xf)
+
+<0xddca3f43> uint256 //slot(0x10)
+
+<0x6c32c0a6> uint256 //slot(0x11)
+
+<0x6626b26d> bool //slot(0x12)
+
+<0xb2a1449b> bool //slot(0x12)
+
+<0xc8e13bb4> uint256 //slot(0x13)
+
+<0x20aba08b> uint256 //slot(0x14)
+
+<0x8cf0c191> uint256 //slot(0x17)
+
+<0x49955431> uint256 //slot(0x18)
+
+<0xfdac0025> ["mapping((u)int256/bytes32 => struct['uint8', '(u)int256/bytes32', '(u)int256/bytes32', '(u)int256/bytes32']) //slot(0x19)"]
+
+<0x49878f3>:['Using State(0x12)', 'Using State(0x11)', 'Using State(0x5)', 'local uint256 value=0x2', 'constant variable (u)int/bytes32 0x18160ddd(m)', 'constant variable (u)int/bytes32 0x18160ddd(m)']
+
+<0x13af4035>:['storage(0x1)-write']
+
+<0x143e55e0>:['global variable: timestamp']
+
+<0x1f3634ed>:['Using State(0x19)', 'local uint256 value=0x19']
+
+<0x27e7e21e>:['Using State(0x4)']
+
+<0x338a0261>:['Using State(0x12)', 'Using State(0x14)', 'Using State(0xf)', 'Using State(0x10)', 'storage(0x14)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp']
+
+<0x343aad82>:['Using State(0x1)', 'storage(0x12)-write']
+
+<0x40cc8854>:['Using State(0x13)', 'Using State(0xe)', 'Using State(0x17)', 'Using State(0x3)', 'Using State(0xc)', 'Using State(0x4)', 'Using State(0x19)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x19', 'storage(0x14)-write', 'storage(0x17)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x495d32cb(m)', 'constant variable (u)int/bytes32 0x495d32cb(m)']
+
+<0x440f19ba>:['Using State(0x17)', 'Using State(0x7)', 'Using State(0xe)', 'Using State(0xd)', 'Using State(0x19)', 'uint private //slot(0x15)', 'uint private //slot(0x16)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x19', 'storage(0x14)-write', 'storage(0x17)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x495d32cb(m)', 'constant variable (u)int/bytes32 0x18160ddd(m)']
+
+<0x454a2ab3>:['Using State(0x4)', 'Using State(0x11)', 'local uint256 value=0x2', 'constant variable (u)int/bytes32 0x18160ddd(m)', 'constant variable (u)int/bytes32 0x33b2e3c9fd0803ce8000000(m)']
+
+<0x51f91066>:['Using State(0x12)']
+
+<0x6f78ee0d>:['Using State(0x19)', 'local uint256 value=0x3', 'local uint256 value=0x2', 'local uint256 value=0x19', 'storage(0x14)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x33b2e3c9fd0803ce8000000(m)']
+
+<0x73b38101>:['Using State(0x17)', 'Using State(0x2)', 'Using State(0x9)', 'Using State(0x19)', 'uint private //slot(0x16)', 'uint private //slot(0x15)', 'local uint256 value=0x3', 'local uint256 value=0x2', 'local uint256 value=0x19', 'storage(0x14)-write', 'storage(0x17)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x59e02dd7(m)']
+
+<0x7a9e5e4b>:['Using State(0x1)', 'storage(0x0)-write']
+
+<0x7e74325f>:['storage(0xa)-write']
+
+<0x7ec9c3b8>:['Using State(0x4)', 'constant variable (u)int/bytes32 0x18160ddd(m)', 'constant variable (u)int/bytes32 0x33b2e3c9fd0803ce8000000(m)']
+
+<0x7f8661a1>:['Using State(0x12)', 'Using State(0x5)', 'Using State(0x11)', 'local uint256 value=0x2', 'constant variable (u)int/bytes32 0x18160ddd(m)']
+
+<0x82bf9a75>:['Using State(0x1)', 'Using State(0x8)', 'storage(0x8)-write']
+
+<0x8a95a746>:['Using State(0x5)']
+
+<0x8ceedb47>:['Using State(0x1)', 'Using State(0x5)', 'Using State(0xa)', 'storage(0x12)-write', 'storage(0xc)-write', 'storage(0x11)-write', 'storage(0x13)-write']
+
+<0x92b0d721>:['Using State(0x1)']
+
+<0x9f678cca>:['Using State(0x12)', 'Using State(0x14)', 'Using State(0xf)', 'Using State(0x10)', 'storage(0x14)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp']
+
+<0xa5cd184e>:['Using State(0x4)', 'Using State(0x7)', 'Using State(0x14)', 'Using State(0xf)', 'Using State(0x10)', 'Using State(0xe)', 'Using State(0x19)', 'local uint256 value=0x2', 'local uint256 value=0x19', 'storage(0x14)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x495d32cb(m)']
+
+<0xb3b77a51>:['Using State(0x12)', 'Using State(0x4)', 'Using State(0x19)', 'local uint256 value=0x19']
+
+<0xb84d2106>:['Using State(0x14)', 'Using State(0xf)', 'Using State(0x10)', 'Using State(0x19)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x19', 'storage(0x14)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp']
+
+<0xbaa8529c>:['local uint256 value=0x19']
+
+<0xc92aecc4>:['Using State(0x12)', 'Using State(0x14)', 'Using State(0xf)', 'Using State(0x10)', 'storage(0x14)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp']
+
+<0xcf48d1a6>:['Using State(0x1)', 'Using State(0x7)', 'storage(0x7)-write']
+
+<0xd9c27cc6>:['Using State(0x1)', 'Using State(0x9)', 'storage(0x9)-write']
+
+<0xde5f5517>:['Using State(0x19)', 'local uint256 value=0x19', 'constant variable (u)int/bytes32 0x0(m)']
+
+<0xe0ae96e9>:['Using State(0x12)', 'Using State(0x14)', 'Using State(0xf)', 'Using State(0x10)', 'local uint256 value=0x2', 'storage(0x14)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x33b2e3c9fd0803ce8000000(m)']
+
+<0xe47e7e66>:['Using State(0x4)', 'Using State(0x11)', 'local uint256 value=0x2', 'constant variable (u)int/bytes32 0x18160ddd(m)', 'constant variable (u)int/bytes32 0x33b2e3c9fd0803ce8000000(m)']
+
+<0xe95823ad>:['Using State(0x7)', 'Using State(0x14)', 'Using State(0xf)', 'Using State(0x10)', 'Using State(0xe)', 'Using State(0x19)', 'local uint256 value=0x2', 'local uint256 value=0x19', 'storage(0x14)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x495d32cb(m)']
+
+<0xf7c8d634>:['Using State(0x12)', 'Using State(0x14)', 'Using State(0xf)', 'Using State(0x10)', 'Using State(0x19)', 'local uint256 value=0x2', 'local uint256 value=0x19', 'storage(0x14)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x33b2e3c9fd0803ce8000000(m)']
+
+<0xfcfff16f>:['Using State(0x12)', 'Using State(0x18)', 'Using State(0x19)', 'local uint256 value=0x19', 'storage(0x18)-write']
+**27** ##27##  
+Time Consumption: 69.950491 S
+
+==============================================================================================================================
+
+
+

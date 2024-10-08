@@ -1,0 +1,6 @@
+@@all right
+
+
+    address public owner;//slot(0x0)
+    mapping(address => uint256) public donations;//slot(0x1)
+    @@2@@

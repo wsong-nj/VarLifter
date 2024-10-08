@@ -1,0 +1,12 @@
+     
+@@all right
+
+    uint256 public totalSupply;//slot(0)
+    mapping (address => uint256) balances;//slot(1)
+    mapping (address => mapping (address => uint256)) allowed;//slot(2)
+
+    string public name;        //slot(3)            
+    uint8 public decimals;        //slot(4)        
+    string public symbol;    //slot(5)            
+    string public version = 'H0.1';     //slot(6)
+    @@7@@

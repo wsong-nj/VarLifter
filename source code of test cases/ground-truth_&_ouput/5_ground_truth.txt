@@ -1,0 +1,28 @@
+@@@2 wrong
+  address public owner;//slot(0)
+
+
+address public controller;//slot(1)
+
+
+  string public name;       //slot(2)        
+    uint8 public decimals;        //slot(3)   
+    string public symbol;           //slot(4)    
+    string public version = 'MMT_0.1';  //slot(5)
+    struct  Checkpoint {  
+        uint128 fromBlock;     
+        uint128 value;
+    }
+    MiniMeToken public address parentToken;//slot(6)
+    uint public parentSnapShotBlock;//slot(7)
+    uint public creationBlock;//slot(8)
+    mapping (address => Checkpoint[]) balances;   //slot(9) wrong
+    mapping (address => mapping (address => uint256)) allowed;  //slot(a)
+    Checkpoint[] totalSupplyHistory;     //slot(b)   wrong
+    bool public transfersEnabled;   //slot(c)
+    MiniMeTokenFactory public address tokenFactory;//slot(c)
+
+
+
+ TokenBurner public address tokenBurner;//slot(d)
+ @@15@@

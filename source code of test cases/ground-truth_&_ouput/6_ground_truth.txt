@@ -1,0 +1,29 @@
+@@@all right    
+
+address public owner;//slot(0)
+    address public candidate;//slot(1)
+
+
+  address                      public original = 0x5B5d8A8A732A3c73fF0fB6980880Ef399ecaf72E;//slot(2)
+    uint                         public totalSupply;//slot(3)
+    mapping (address => uint256) public balanceOf;//slot(4)
+    uint                         public numberOfInvestors;//slot(5)
+    mapping (address => bool)    public investors;//slot(6)
+
+
+  address public backend;//slot(7)
+    address public cryptaurToken = 0x88d50B466BE55222019D71F9E8fAe17f5f45FCA1;//slot(8)
+    uint    public crowdsaleStartTime = 1517270400;   //slot(9)
+    uint    public crowdsaleFinishTime = 1522454400;  //slot(a)
+    uint    public etherPrice;//slot(b)
+    uint    public collectedUSD;//slot(c)
+    bool    public crowdsaleFinished;//slot(d)
+
+
+    string  public standard = 'Token 0.1';//slot(e)
+    string  public name     = 'PROOF';//slot(f)
+    string  public symbol   = 'PF';//slot(10)
+    uint8   public decimals = 8;//slot(11)
+
+    mapping (address => mapping (address => uint)) public allowed;//slot(12)
+    @@19@@

@@ -1,0 +1,49 @@
+Output for 13_runtime_bytecode.txt:
+
+
+<0x8da5cb5b> address //slot(0x0)
+
+<0xd4ee1d90> address //slot(0x1)
+
+<0x95d89b41> ['string //slot(0x2)']
+
+<0x6fdde03> ['string //slot(0x3)']
+
+<0x313ce567> uint8 //slot(0x4)
+
+<0x3eaaf86b> uint256 //slot(0x5)
+
+<0x70a08231> ['mapping(address => (u)int256/bytes32) //slot(0x6)']
+
+<0x95ea7b3>:[]
+
+<0x18160ddd>:['Using State(0x5)']
+
+<0x23b872dd>:['Using State(0x6)', 'mapping(address => mapping(address => uint256)) //slot(0x7)']
+
+<0x79ba5097>:['Using State(0x1)', 'storage(0x1)-write', 'storage(0x0)-write']
+
+<0xa293d1e8>:[]
+
+<0xa9059cbb>:['Using State(0x6)']
+
+<0xb5931f7c>:[]
+
+<0xcae9ca51>:['local uint256 value=0x24', 'local uint256 value=0x44', 'local uint256 value=0x80', 'local uint256 value=0x64', 'local uint256 value=0x84', 'local uint256 value=0xa4']
+
+<0xd05c78da>:[]
+
+<0xdc39d06d>:['local uint256 value=0x24', 'local uint256 value=0x44']
+
+<0xdd62ed3e>:['mapping(address => mapping(address => uint256)) //slot(0x7)']
+
+<0xe6cb9013>:[]
+
+<0xf2fde38b>:['Using State(0x0)', 'Using State(0x1)', 'storage(0x1)-write']
+**8**##8##
+Time Consumption: 0.781401 S
+
+==============================================================================================================================
+
+
+

@@ -1,0 +1,47 @@
+@@all right    
+    #The Types like 'DSAuthority' is a contract type, but contract types in the EVM are stored as contract addresses. Therefore, such type of variable is ultimately represented as an address in the EVM.
+
+
+    DSAuthority address public  authority;//slot(0x0)
+    address      public  owner;//slot(0x1)
+    DSToken address public  sai;   //slot(0x2)
+    DSToken address public  sin;   //slot(0x3)
+
+    DSToken address public  skr;   //slot(0x4)
+    ERC20  address  public  gem;   //slot(0x5)
+
+    DSToken address public  gov;   //slot(0x6)
+
+    SaiVox address  public  vox;   //slot(0x7)
+    DSValue address public  pip;   //slot(0x8)
+    DSValue address public  pep;   //slot(0x9)
+
+    address  public  tap;   //slot(0xa)
+    address  public  pit;   //slot(0xb)
+
+    uint256  public  axe;   //slot(0xc)
+    uint256  public  cap;   //slot(0xd)
+    uint256  public  mat;   //slot(0xe)
+    uint256  public  tax;   //slot(0xf)
+    uint256  public  fee;   //slot(0x10)
+    uint256  public  gap;   //slot(0x11)
+
+    bool     public  off;   //slot(0x12)
+    bool     public  out;   //slot(0x12)
+
+    uint256  public  fit;   //slot(0x13)
+
+    uint256  public  rho;   //slot(0x14)
+    uint256         _chi;   //slot(0x15)
+    uint256         _rhi;   //slot(0x16)
+    uint256  public  rum;   //slot(0x17)
+
+    uint256                   public  cupi;//slot(0x18)
+    mapping (bytes32 => Cup)  public  cups;//slot(0x19)
+
+    struct Cup {
+        uint8  lad;       
+        uint256  ink;       
+        uint256  art;       
+        uint256  ire;       
+    }@@27@@

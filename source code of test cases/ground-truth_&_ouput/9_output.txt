@@ -1,0 +1,142 @@
+Output for 9_runtime_bytecode.txt:
+
+
+<0x863e76db> uint256 //slot(0x0)
+
+<0x7a9506ed> uint256 //slot(0x1)
+
+<0xa9e4176f> uint256 //slot(0x2)
+
+<0xf851a440> address //slot(0x3)
+
+<0x97d42e0> uint256 //slot(0x4)
+
+<0x14e53a40> uint256 //slot(0x5)
+
+<0xb30e3b38> uint256 //slot(0x6)
+
+<0x94dd27d2> uint256 //slot(0x7)
+
+<0x152ad433> uint256 //slot(0x8)
+
+<0xa363fc96> uint256 //slot(0x9)
+
+<0xc9a1e7b2> uint256 //slot(0xa)
+
+<0xe5448048> address //slot(0xb)
+
+<0x37f6a7ee> uint256 //slot(0xc)
+
+<0xe83a25c5> uint256[] //slot(0xd)
+
+<0x395bf562> uint256 //slot(0xd)
+
+<0x2d9b7f4d> uint256 //slot(0xe)
+
+<0x2fb011fa> uint256[] //slot(0xe)
+
+<0x3865079f> uint256[] //slot(0xf)
+
+<0x3f310896> uint256 //slot(0xf)
+
+<0xd7eb9379> ["mapping((u)int256/bytes32 => struct['(u)int256/bytes32', '(u)int256/bytes32', '(u)int256/bytes32', 'uint8', 'uint8', 'bool']) //slot(0x11)"]
+
+<0xefbf64a7> ["mapping((u)int256/bytes32 => struct['(u)int256/bytes32', '(u)int256/bytes32', '(u)int256/bytes32', 'uint8', 'uint8', '(u)int256/bytes32', '(u)int256/bytes32']) //slot(0x12)"]
+
+<0x6a86e8fd> ["mapping((u)int256/bytes32 => struct['(u)int256/bytes32', 'uint8', '(u)int256/bytes32', '(u)int256/bytes32']) //slot(0x13)"]
+
+<0xf6610aa6> uint256 //slot(0x14)
+
+<0x8ed24df1> uint256 //slot(0x15)
+
+<0x27f6ae8c> bool //slot(0x16)
+
+<0xf9b137d7>:['local uint256 value=0x17', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', '(u)int256/bytes32[0x2] //slot(0x17)', '(u)int256/bytes32[0x4] //slot(0x17)']
+
+<0xfa2e15c9>:['Using State(0x3)', 'Using State(0x11)', 'local uint256 value=0x2', 'local uint256 value=0x11']
+
+<0xfaa5a225>:['mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0x120', 'local uint256 value=0x140', 'local uint256 value=0x160', 'local uint256 value=0x180', 'local uint256 value=0x1a0', 'local struct23[uint, address, address, uint, address, address, address, address, address, address]']
+
+<0xfd5e79aa>:['Using State(0x3)', 'Using State(0xb)', 'Using State(0xe)', 'Using State(0x12)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0xc0', 'local uint256 value=0x180', 'local uint256 value=0x1e0', 'local uint256 value=0x1c0', 'local uint256 value=0x1a0', 'local uint256 value=0x64', 'local uint256 value=0x2a0', 'local uint256 value=0x220', 'local uint256 value=0x8fc', 'local uint256 value=0x5a', 'local uint256 value=0xe0', 'local uint256 value=0x80', 'storage(0xe)-write', 'global variable: timestamp', 'global variable: timestamp', 'local struct23[uint, address, address, uint, address, address, address, address, address, address, uint, address, address, uint, address, address, address, address, address, address, uint, address, address]']
+
+<0xf142ca5e>:['Using State(0x3)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x8', 'local uint256 value=0x10']
+
+<0xf76c705d>:['Using State(0xc)', 'constant variable (u)int/bytes32 0x0(m)']
+
+<0xdf40da29>:['Using State(0x3)', 'Using State(0x0)', 'local uint256 value=0x3c', 'local uint256 value=0x17', 'local uint256 value=0x3', 'local uint256 value=0x2', 'local uint256 value=0x6', 'local uint256 value=0x5', 'global variable: timestamp', '(u)int256/bytes32[0x1] //slot(0x17)', '(u)int256/bytes32[0x7] //slot(0x17)', '(u)int256/bytes32[0x6] //slot(0x17)', '(u)int256/bytes32[0x4] //slot(0x17)']
+
+<0xed88c68e>:['Using State(0x4)', 'storage(0x4)-write']
+
+<0xd202925b>:['Using State(0x3)', 'Using State(0x0)', 'Using State(0xb)', 'Using State(0xe)', 'Using State(0x12)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0x2a0', 'local uint256 value=0x220', 'local uint256 value=0xc0', 'local uint256 value=0x180', 'local uint256 value=0x1e0', 'local uint256 value=0x1c0', 'local uint256 value=0x1a0', 'local uint256 value=0x64', 'local uint256 value=0x8fc', 'local uint256 value=0x5a', 'local uint256 value=0xe0', 'local uint256 value=0x80', 'storage(0xe)-write', 'global variable: timestamp', 'global variable: timestamp', 'local struct23[uint, address, address, uint, address, address, address, address, address, address, uint, address, address, uint, address, address, address, address, address, address, uint, address, address]']
+
+<0xd51527d1>:['Using State(0x3)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x9', 'local uint256 value=0x10', 'global variable: timestamp']
+
+<0xdb652fa7>:['Using State(0x3)', 'Using State(0x16)', 'local uint256 value=0xc0', 'storage(0x5)-write', 'storage(0x6)-write', 'storage(0x7)-write', 'storage(0x8)-write', 'storage(0x9)-write', 'storage(0xa)-write']
+
+<0xca5e5866>:['Using State(0x3)', 'Using State(0x16)', 'storage(0x16)-write']
+
+<0xcb60930d>:['mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0xc0', 'local uint256 value=0x180', 'local uint256 value=0x1e0', 'local uint256 value=0x1c0', 'local uint256 value=0x1a0', 'local uint256 value=0x64', 'constant variable (u)int/bytes32 0x64(m)', 'local struct23[uint, address, address, uint, address, address, address, address, address, address, uint]']
+
+<0xcefe43eb>:['mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0x280', 'local uint256 value=0x2a0', 'local uint256 value=0x2c0', 'local struct23[uint, address, address, uint, address, address, address, address, address, address]']
+
+<0xd0e30db0>:['Using State(0x2)', 'Using State(0x4)', 'Using State(0x1)', 'Using State(0xd)', 'Using State(0x11)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x10', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0xb', 'local uint256 value=0x32', 'local uint256 value=0xa', 'local uint256 value=0x14', 'local uint256 value=0x2', 'local uint256 value=0xc0', 'local uint256 value=0x11', 'local uint256 value=0x3', 'local uint256 value=0x80', 'local uint256 value=0x15', 'storage(0x4)-write', 'storage(0xd)-write', 'global variable: timestamp', 'global variable: timestamp', 'local struct1[uint]']
+
+<0xbdb60f67>:['storage(0x14)-write']
+
+<0xc8f40956>:['Using State(0x3)', 'Using State(0x5)', 'storage(0x7)-write', 'storage(0x5)-write', 'global variable: timestamp', 'global variable: timestamp']
+
+<0xc9f58d4c>:['mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0x80', 'local struct23[uint, address, address, uint, address, address, address, address, address, address, address, address]']
+
+<0xac1d1abe>:['Using State(0x3)', 'Using State(0x0)', 'local uint256 value=0x17', 'local uint256 value=0x2', 'global variable: timestamp', '(u)int256/bytes32[0x1] //slot(0x17)']
+
+<0xb4dd4890>:['Using State(0x3)']
+
+<0x952867c1>:['Using State(0x3)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0xa', 'local uint256 value=0x10']
+
+<0x95a25efa>:['Using State(0xc)', 'constant variable (u)int/bytes32 0x0(m)']
+
+<0x7dded8f2>:['Using State(0x3)', 'Using State(0x0)', 'local uint256 value=0x1e', 'global variable: timestamp']
+
+<0x7e4ca6cc>:['Using State(0x3)', 'Using State(0xc)', 'local uint256 value=0x17', 'local uint256 value=0xc0', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x80', 'local uint256 value=0x5', 'local uint256 value=0x6', 'global variable: timestamp', 'local struct6[address]', '(u)int256/bytes32[0x1] //slot(0x17)', '(u)int256/bytes32[0x2] //slot(0x17)', '(u)int256/bytes32[0x4] //slot(0x17)']
+
+<0x8f0fb9e0>:['Using State(0x3)', 'Using State(0x16)', 'Using State(0xe)', 'Using State(0x12)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0xe0', 'local uint256 value=0x12', 'local uint256 value=0x80', 'local uint256 value=0xc0', 'local uint256 value=0x10', 'local uint256 value=0x16', 'storage(0xe)-write', 'local struct7[uint]']
+
+<0x6d462ae1>:['Using State(0x3)', 'Using State(0x16)', 'Using State(0xd)', 'Using State(0x4)', 'Using State(0x11)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x80', 'local uint256 value=0x11', 'local uint256 value=0xc0', 'local uint256 value=0x10', 'local uint256 value=0x15', 'storage(0xd)-write', 'storage(0x4)-write', 'local struct6[uint]']
+
+<0x76a1f04f>:['mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0xc0', 'local uint256 value=0xe0', 'local struct23[uint, address, address, uint, address, address, address, address, address, address]']
+
+<0x7726b16b>:['Using State(0x3)', 'Using State(0x0)', 'local uint256 value=0x17', 'local uint256 value=0x3', 'local uint256 value=0x2', 'local uint256 value=0x6', 'storage(0xa)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', '(u)int256/bytes32[0x1] //slot(0x17)', '(u)int256/bytes32[0x7] //slot(0x17)', '(u)int256/bytes32[0x5] //slot(0x17)', '(u)int256/bytes32[0x4] //slot(0x17)']
+
+<0x59aab5f1>:['Using State(0x3)', 'Using State(0x6)', 'storage(0x8)-write', 'storage(0x6)-write', 'global variable: timestamp', 'global variable: timestamp']
+
+<0x5bdbeb34>:['Using State(0x3)', 'Using State(0x5)', 'Using State(0xb)', 'Using State(0xe)', 'Using State(0x12)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x8', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0xc0', 'local uint256 value=0x180', 'local uint256 value=0x1e0', 'local uint256 value=0x1c0', 'local uint256 value=0x1a0', 'local uint256 value=0x64', 'local uint256 value=0x2a0', 'local uint256 value=0x220', 'local uint256 value=0x8fc', 'local uint256 value=0x5a', 'local uint256 value=0xe0', 'local uint256 value=0x80', 'storage(0xe)-write', 'global variable: timestamp', 'global variable: timestamp', 'local struct23[uint, address, address, uint, address, address, address, address, address, address, uint, address, address, uint, address, address, address, address, address, address, uint, address, address]']
+
+<0x6a940841>:['mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0xc0', 'local uint256 value=0x180', 'local uint256 value=0x1e0', 'local uint256 value=0x1c0', 'local uint256 value=0x1a0', 'local uint256 value=0x64', 'local uint256 value=0x2a0', 'local uint256 value=0x220', 'local struct23[uint, address, address, uint, address, address, address, address, address, address, uint, address, address, uint, address, address, address, address, address, address, uint, address]']
+
+<0x479537b6>:['Using State(0xc)']
+
+<0x49aa4ee2>:['Using State(0x3)', 'local uint256 value=0x17', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local struct1[uint]']
+
+<0x4b9f5c98>:['local uint256 value=0x10', 'local uint256 value=0x6', 'local uint256 value=0x17', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x28', 'global variable: timestamp', '(u)int256/bytes32[0x1] //slot(0x17)', '(u)int256/bytes32[0x6] //slot(0x17)', '(u)int256/bytes32[0x5] //slot(0x17)']
+
+<0x4c6de509>:['Using State(0x3)']
+
+<0x393f2a09>:['Using State(0x3)', 'Using State(0xc)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x5', 'local uint256 value=0x10', 'local uint256 value=0x2e0', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x80', 'local uint256 value=0xc0', 'local uint256 value=0x6', 'local uint256 value=0xe0', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x120', 'local uint256 value=0x9', 'local uint256 value=0x140', 'local uint256 value=0xa', 'local uint256 value=0x160', 'local uint256 value=0xb', 'local uint256 value=0x180', 'local uint256 value=0xc', 'local uint256 value=0x1a0', 'local uint256 value=0xd', 'local uint256 value=0x1c0', 'local uint256 value=0xe', 'local uint256 value=0x1e0', 'local uint256 value=0xf', 'local uint256 value=0x200', 'local uint256 value=0x220', 'local uint256 value=0x11', 'local uint256 value=0x240', 'local uint256 value=0x12', 'local uint256 value=0x260', 'local uint256 value=0x13', 'local uint256 value=0x280', 'local uint256 value=0x14', 'local uint256 value=0x2a0', 'local uint256 value=0x15', 'local uint256 value=0x2c0', 'local uint256 value=0x16', 'storage(0xc)-write', 'global variable: timestamp', 'global variable: timestamp', 'local struct23[uint, address, address, address, address, uint, uint, uint]']
+
+<0x2f89ddf8>:['mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x11', 'local uint256 value=0x12', 'local uint256 value=0x13', 'local uint256 value=0x14', 'local uint256 value=0x15', 'local uint256 value=0x16', 'local uint256 value=0x2e0', 'local uint256 value=0x1c0', 'local uint256 value=0x1e0', 'local uint256 value=0x200', 'local uint256 value=0x220', 'local uint256 value=0x240', 'local struct23[uint, address, address, uint, address, address, address, address, address, address]']
+
+<0x1b3f8e44>:['Using State(0x3)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x8', 'local uint256 value=0x10']
+
+<0x26969b67>:['mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x3', 'local uint256 value=0x10', 'local uint256 value=0x5', 'local uint256 value=0x28', 'local uint256 value=0x17', 'local uint256 value=0x6', 'constant variable (u)int/bytes32 0x2(m)']
+
+<0x2cd03a0e>:['Using State(0x3)', 'Using State(0x16)', 'Using State(0xc)', 'mapping(address => uint) private //slot(0x10)', 'local uint256 value=0x80', 'local uint256 value=0x10', 'local uint256 value=0x5', 'local uint256 value=0x2e0', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0x6', 'local uint256 value=0x7', 'local uint256 value=0x8', 'local uint256 value=0x9', 'local uint256 value=0xa', 'local uint256 value=0xb', 'local uint256 value=0xc', 'local uint256 value=0xc0', 'local uint256 value=0xe0', 'local uint256 value=0x120', 'local uint256 value=0x140', 'local uint256 value=0x160', 'local uint256 value=0x180', 'local uint256 value=0x1a0', 'local uint256 value=0xd', 'local uint256 value=0x1c0', 'local uint256 value=0xe', 'local uint256 value=0x1e0', 'local uint256 value=0xf', 'local uint256 value=0x200', 'local uint256 value=0x220', 'local uint256 value=0x11', 'local uint256 value=0x240', 'local uint256 value=0x12', 'local uint256 value=0x260', 'local uint256 value=0x13', 'local uint256 value=0x280', 'local uint256 value=0x14', 'local uint256 value=0x2a0', 'local uint256 value=0x15', 'local uint256 value=0x2c0', 'local uint256 value=0x16', 'storage(0xc)-write', 'local struct23[uint, address, address, address, address, uint, uint, uint]']
+
+<0xe8ac5c1>:['Using State(0x3)', 'Using State(0x0)', 'local uint256 value=0x17', 'local uint256 value=0x3', 'local uint256 value=0x2', 'local uint256 value=0x6', 'local uint256 value=0x8fc', 'global variable: timestamp', '(u)int256/bytes32[0x1] //slot(0x17)', '(u)int256/bytes32[0x7] //slot(0x17)', '(u)int256/bytes32[0x5] //slot(0x17)']
+**19**##24##
+
+Time Consumption: 175.516302 S
+
+==============================================================================================================================
+
+
+

@@ -1,0 +1,54 @@
+
+@@@all right
+
+	address public owner = msg.sender;//slot(0)
+	address public potentialOwner;//slot(1)
+
+
+	mapping (address => uint256) internal balances;//slot(2)
+	mapping (address => mapping (address => uint256)) internal allowed;//slot(3)
+	uint256 public totalSupply;//slot(4)
+
+
+
+
+     uint256 public creationTime;//slot(5)
+
+
+
+
+	address public investorsAllocation = address(0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF);//slot(6)
+	uint256 public investorsTotal = 525000000e18;//slot(7
+
+	address public overdraftAllocation = address(0x1111111111111111111111111111111111111111);//slot(8)
+	uint256 public overdraftTotal = 250000000e18;//slot(9)
+	uint256 public overdraftPeriodAmount = 41666666e18;//slot(a)
+	uint256 public overdraftUnvested = 4e18;//slot(b)
+	uint256 public overdraftCliff = 5 * 30 days;//slot(c)
+	uint256 public overdraftPeriodLength = 30 days;//slot(d)
+	uint8   public overdraftPeriodsNumber = 6;//slot(e)
+
+	address public teamAllocation  = address(0x2222222222222222222222222222222222222222);//slot(e)
+	uint256 public teamTotal = 112500000e18;//slot(f)
+	uint256 public teamPeriodAmount = 7031250e18;//slot(10)
+	uint256 public teamUnvested = 0;//slot(11)
+	uint256 public teamCliff = 0;//slot(12)
+	uint256 public teamPeriodLength = 3 * 30 days;//slot(13)
+	uint8   public teamPeriodsNumber = 16;//slot(14)
+
+	address public communityAllocation  = address(0x3333333333333333333333333333333333333333);//slot(14)
+	uint256 public communityTotal = 60000000e18;//slot(15)
+	uint256 public communityPeriodAmount = 8333333e18;//slot(16)
+	uint256 public communityUnvested = 10000002e18;//slot(17)
+	uint256 public communityCliff = 0;//slot(18)
+	uint256 public communityPeriodLength = 3 * 30 days;//slot(19)
+	uint8   public communityPeriodsNumber = 6;//slot(1a)
+
+	address public advisersAllocation  = address(0x4444444444444444444444444444444444444444);//slot(1a)
+	uint256 public advisersTotal = 52500000e18;//slot(1b)
+	uint256 public advisersPeriodAmount = 2291666e18;//slot(1c)
+	uint256 public advisersUnvested = 25000008e18;//slot(1d)
+	uint256 public advisersCliff = 0;//slot(1e)
+	uint256 public advisersPeriodLength = 30 days;//slot(1f)
+	uint8   public advisersPeriodsNumber = 12;//slot(20)
+	@@36@@

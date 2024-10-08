@@ -1,0 +1,44 @@
+	
+@@1 missing    2 wrong
+
+	address public owner;			//slot(0)			 
+	bytes32 public SHA256ofArtwork;		//slot(1)		 
+	uint256 public editionSize;	//slot(2)				 
+	string public title;	//slot(3)					 
+	string public fileLink;		//slot(4)				 
+	string public proofLink;	//slot(5)				 
+	string public customText;	//slot(6)				 
+	uint256 public ownerCommission;	//slot(7)			 
+	
+	uint256 public lowestAskPrice;		//slot(8)		 
+	address public lowestAskAddress;		//slot(9)	 
+	uint256 public lowestAskTime;		//slot(a)		 
+	bool public pieceForSale;	//slot(b) missing				 
+
+	uint256 public highestBidPrice;	//slot(c)			 
+	address public highestBidAddress;		//slot(d)	 
+	uint256 public highestBidTime;	//slot(e)			 
+	uint public activationTime;	//slot(f)				 
+	bool public pieceWanted;		//slot(10)
+    bool public proofSet;  //slot(10)
+	
+	 
+	uint256 public ethartArtAwarded;//slot(11)
+
+	 
+	mapping (address => uint256) public piecesOwned;//slot(12)
+	
+	 
+ 	mapping (address => mapping (address => uint256)) allowed;//slot(13)
+	
+	 
+    address registrar = 0xC636277B8250e62632467B7Db19ed9111E25EB99;// slot(14) wrong
+	
+	 
+	uint256 public ethartRevenueReward;//slot(15)
+	uint256 public ethartArtReward;//slot(16)
+	address public referrer;//slot(17)
+	
+	 
+	uint256 public referrerReward;//slot(18)
+	@@26@@

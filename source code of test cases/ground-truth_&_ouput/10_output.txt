@@ -1,0 +1,53 @@
+Output for 10_runtime_bytecode.txt:
+
+
+<0x8da5cb5b> address //slot(0x0)
+
+<0xd4ee1d90> address //slot(0x1)
+
+<0x95d89b41> ['string //slot(0x2)']
+
+<0x6fdde03> ['string //slot(0x3)']
+
+<0x313ce567> uint8 //slot(0x4)
+
+<0x393931d0> uint256 //slot(0x5)
+
+<0x2f1e2957> uint256 //slot(0x6)
+
+<0x7b3e5e7b> uint256 //slot(0x7)
+
+<0x18160ddd> uint256 //slot(0x8)
+
+<0xa40d32fe> uint256 //slot(0x9)
+
+<0x95ea7b3>:['local uint256 value=0xb']
+
+<0x23b872dd>:['mapping(address => uint) private //slot(0xa)', 'mapping(address => mapping(address => uint256)) //slot(0xb)', 'local uint256 value=0xa', 'local uint256 value=0xb']
+
+<0x3c43b91d>:['Using State(0x0)', 'storage(0x6)-write']
+
+<0x3d4a7c1e>:['Using State(0x0)', 'storage(0x5)-write']
+
+<0x70a08231>:['mapping(address => uint) private //slot(0xa)', 'local uint256 value=0xa']
+
+<0x79ba5097>:['storage(0x0)-write', 'storage(0x1)-write']
+
+<0xa9059cbb>:['mapping(address => uint) private //slot(0xa)', 'local uint256 value=0xa']
+
+<0xcae9ca51>:['local uint256 value=0xb']
+
+<0xccfdca9a>:['Using State(0x0)', 'storage(0x9)-write']
+
+<0xdc39d06d>:[]
+
+<0xdd62ed3e>:['mapping(address => mapping(address => uint256)) //slot(0xb)', 'local uint256 value=0xb']
+
+<0xf2fde38b>:['Using State(0x0)', 'Using State(0x1)', 'storage(0x1)-write']
+**12**##12##
+Time Consumption: 1.545768 S
+
+==============================================================================================================================
+
+
+

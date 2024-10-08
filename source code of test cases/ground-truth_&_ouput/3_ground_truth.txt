@@ -1,0 +1,29 @@
+ @@all right
+  address public owner;//slot(0x0)  
+
+  bool public halted;//slot(0x0)
+
+  FractionalERC20 address public token;//slot(0x1)
+  PricingStrategy address public pricingStrategy;//slot(0x2)
+  FinalizeAgent address public finalizeAgent;//slot(0x3)
+  address public multisigWallet;//slot(0x4)
+  uint public minimumFundingGoal;//slot(0x5)
+  uint public startsAt;//slot(0x6)
+  uint public endsAt;//slot(0x7)
+  uint public tokensSold = 0;//slot(0x8)
+  uint public weiRaised = 0;//slot(0x9)
+  uint public investorCount = 0;//slot(0xa)
+  uint public loadedRefund = 0;//slot(0xb)
+  uint public weiRefunded = 0;//slot(0xc)
+  bool public finalized;//slot(0xd)
+  bool public requireCustomerId;//slot(0xd)
+  bool public requiredSignedAddress;//slot(0xd)
+  address public signerAddress;//slot(0xd)
+  mapping (address => uint256) public investedAmountOf;//slot(0xe)
+  mapping (address => uint256) public tokenAmountOf;//slot(0xf)
+  mapping (address => bool) public earlyParticipantWhitelist;//slot(0x10)
+  uint public ownerTestValue;//slot(0x11)
+
+
+  uint public weiCap;//slot(0x12)
+  @@23@@

@@ -1,0 +1,133 @@
+Output for 2_runtime_bytecode.txt:
+
+
+<0xa0f8168> address //slot(0x0)
+
+<0x5c975abb> bool //slot(0x1)
+
+<0xb047fb50> address //slot(0x1)
+
+<0x20f317fb> address //slot(0x2)
+
+<0x757501c5> address //slot(0x3)
+
+<0x18160ddd> uint256 //slot(0x4)
+
+<0xf6a99bdc> ['mapping((u)int256/bytes32 => address) //slot(0x5)']
+
+<0xc5c58881> ['mapping((u)int256/bytes32 => address) //slot(0x7)']
+
+<0x6fdde03> ['string //slot(0x9)']
+
+<0x95d89b41> ['string //slot(0xa)']
+
+<0xe6cbe351> address //slot(0xb)
+
+<0xb5319335> uint256 //slot(0xc)
+
+<0x404d0e3e> uint256 //slot(0xd)
+
+<0xae4d0ff7> uint256 //slot(0xe)
+
+<0xab948374> uint256 //slot(0xf)
+
+<0xeb845c17> uint256 //slot(0x10)
+
+<0x5e45546> uint256 //slot(0x11)
+
+<0xf1ca9410> uint256 //slot(0x12)
+
+<0x6af04a57> address //slot(0x13)
+
+<0xc3de1ab9> bool //slot(0x13)
+
+<0x7e7e5a75> uint256 //slot(0x14)
+
+<0x29337bda> uint256 //slot(0x15)
+
+<0x7c116ec9> uint256 //slot(0x16)
+
+<0xe2865b4d> uint256 //slot(0x17)
+
+<0xa8a5c22c> uint256 //slot(0x18)
+
+missing slot(0x8)
+
+<0x95ea7b3>:['Using State(0x7)', 'local uint256 value=0x5', 'local uint256 value=0x7']
+
+<0xa59bf2d>:['Using State(0x1)', 'storage(0x15)-write']
+
+<0x1051db34>:[]
+
+<0x1b8ef0bb>:['local uint256 value=0xd', 'local uint256 value=0x3', 'local uint256 value=0xffff', 'local uint256 value=0x5', 'local uint256 value=0x2', 'local uint256 value=0x6', 'local uint256 value=0x10', 'constant variable (u)int/bytes32 0x0(m)']
+
+<0x23b872dd>:['Using State(0x5)', 'local uint256 value=0x7', 'local uint256 value=0x5', 'local uint256 value=0x6']
+
+<0x27d7874c>:['storage(0x0)-write']
+
+<0x2ba73c15>:['Using State(0x0)', 'Using State(0x1)', 'storage(0x1)-write']
+
+<0x33f30a43>:['local uint256 value=0xd', 'local uint256 value=0x2', 'local uint256 value=0x3', 'local uint256 value=0xffff', 'local uint256 value=0x5', 'local uint256 value=0xc', 'local uint256 value=0x6', 'local uint256 value=0xc0', 'local uint256 value=0x80', 'local uint256 value=0x120', 'local uint256 value=0x9', 'local uint256 value=0x7', 'local uint256 value=0x10']
+
+<0x34e415db>:['Using State(0x13)', 'Using State(0x5)', 'local uint256 value=0xd', 'local uint256 value=0x6', 'local uint256 value=0x5', 'local uint256 value=0xffff', 'local uint256 value=0x9', 'local uint256 value=0xc', 'local uint256 value=0xa', 'local uint256 value=0x38e', 'local uint256 value=0x3', 'local uint256 value=0x2', 'local uint256 value=0x10', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x20(m)']
+
+<0x3d7d3f5a>:['Using State(0x1)', 'Using State(0xb)', 'Using State(0x7)', 'local uint256 value=0x5', 'local uint256 value=0x7']
+
+<0x3f4ba83a>:['Using State(0x1)', 'storage(0x13)-write']
+
+<0x4eb7be5b>:['Using State(0x1)', 'Using State(0x3)', 'Using State(0x2)', 'storage(0x3)-write', 'storage(0x2)-write', 'constant variable (u)int/bytes32 0x6237564c(m)']
+
+<0x554571db>:['Using State(0x13)', 'Using State(0x14)', 'Using State(0x15)', 'Using State(0x5)', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0x2', 'local uint256 value=0xffff', 'local uint256 value=0x6', 'local uint256 value=0x9', 'local uint256 value=0x7', 'local uint256 value=0x10', 'local uint256 value=0x5', 'local uint256 value=0x3']
+
+<0x5fd8c710>:['Using State(0x1)', 'local uint256 value=0x8fc']
+
+<0x6352211e>:['Using State(0x5)', 'local uint256 value=0x5', 'constant variable (u)int/bytes32 0x0(m)']
+
+<0x67907404>:['Using State(0x13)', 'Using State(0x4)', 'Using State(0x16)', 'Using State(0x5)', 'local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0x2', 'local uint256 value=0xffff', 'local uint256 value=0x6', 'local uint256 value=0x5', 'local uint256 value=0x9', 'local uint256 value=0x7', 'local uint256 value=0x10', 'local uint256 value=0x3', 'local uint256 value=0x8', 'local uint256 value=0xc0', 'local uint256 value=0x120', 'local uint256 value=0x3c0', 'local uint256 value=0x80', 'local uint256 value=0xf', 'local uint256 value=0xe0', 'storage(0x8)-write', 'storage(0x4)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp']
+
+<0x6fbde40d>:['Using State(0x1)', 'Using State(0xb)', 'storage(0xb)-write', 'constant variable (u)int/bytes32 0x85b86188(m)']
+
+<0x70a08231>:['mapping(address => uint) private //slot(0x6)', 'local uint256 value=0x6']
+
+<0x71587988>:['Using State(0x13)', 'storage(0x13)-write']
+
+<0x71ae973e>:['Using State(0x1)', 'Using State(0x12)', 'Using State(0x4)', 'Using State(0xb)', 'Using State(0xe)', 'Using State(0x5)', 'Using State(0x7)', 'local uint256 value=0xc0', 'local uint256 value=0x6', 'local uint256 value=0x120', 'local uint256 value=0x9', 'local uint256 value=0x3c0', 'local uint256 value=0x80', 'local uint256 value=0x8', 'local uint256 value=0xffff', 'local uint256 value=0xd', 'local uint256 value=0x2', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0xe0', 'local uint256 value=0xc', 'local uint256 value=0x7', 'storage(0x8)-write', 'storage(0x4)-write', 'storage(0x12)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0xeac9d94c(m)']
+
+<0x817b106e>:['Using State(0x1)', 'storage(0x14)-write']
+
+<0x82402743>:['Using State(0x1)', 'Using State(0x11)', 'Using State(0x12)', 'Using State(0x4)', 'Using State(0x5)', 'local uint256 value=0xc0', 'local uint256 value=0x6', 'local uint256 value=0x120', 'local uint256 value=0x9', 'local uint256 value=0x3c0', 'local uint256 value=0x80', 'local uint256 value=0x8', 'local uint256 value=0xffff', 'local uint256 value=0xd', 'local uint256 value=0x2', 'local uint256 value=0xf', 'local uint256 value=0x10', 'local uint256 value=0x3', 'local uint256 value=0x5', 'local uint256 value=0xe0', 'local uint256 value=0xc', 'storage(0x11)-write', 'storage(0x12)-write', 'storage(0x8)-write', 'storage(0x4)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp']
+
+<0x8456cb59>:['Using State(0x1)', 'storage(0x13)-write']
+
+<0x86481d40>:['local uint256 value=0xc', 'local uint256 value=0xd', 'local uint256 value=0x2', 'local uint256 value=0xffff', 'local uint256 value=0x6', 'local uint256 value=0x9', 'local uint256 value=0x7', 'local uint256 value=0x10', 'local uint256 value=0x5', 'local uint256 value=0x3', 'constant variable (u)int/bytes32 0xc(m)']
+
+<0x8b975028>:['Using State(0x2)', 'Using State(0x4)', 'local uint256 value=0xd', 'local uint256 value=0x6']
+
+<0x8e372dcd>:['Using State(0x13)', 'Using State(0x5)', 'local uint256 value=0xd', 'local uint256 value=0x6', 'local uint256 value=0x2', 'local uint256 value=0x5', 'local uint256 value=0xffff', 'local uint256 value=0x3', 'local uint256 value=0xc', 'local uint256 value=0xa', 'local uint256 value=0x38e', 'local uint256 value=0x10', 'local uint256 value=0x9', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x20(m)']
+
+<0x8ed5047c>:['Using State(0x2)', 'Using State(0x4)', 'local uint256 value=0xd', 'local uint256 value=0x3', 'local uint256 value=0xffff']
+
+<0x91876e57>:['Using State(0x1)', 'Using State(0xb)', 'constant variable (u)int/bytes32 0x5fd8c710(m)']
+
+<0x9b4d9ecc>:['Using State(0x1)', 'storage(0x17)-write']
+
+<0xa9059cbb>:['Using State(0x5)', 'local uint256 value=0x5', 'local uint256 value=0x6']
+
+<0xc805914a>:['Using State(0x1)', 'storage(0x16)-write']
+
+<0xcf5f87d0>:['Using State(0x2)', 'Using State(0x4)', 'local uint256 value=0xd']
+
+<0xd62f146b>:['Using State(0x2)', 'Using State(0x4)', 'local uint256 value=0xd', 'local uint256 value=0x5', 'local uint256 value=0xffff', 'local uint256 value=0x6', 'local uint256 value=0x10', 'local uint256 value=0x2']
+
+<0xe7696a29>:['Using State(0x2)', 'Using State(0x4)', 'local uint256 value=0xd', 'local uint256 value=0x3', 'local uint256 value=0xffff']
+
+<0xf29c7870>:['Using State(0x1)', 'storage(0x18)-write']
+
+<0xf4edb15b>:['Using State(0x4)', 'mapping(address => uint) private //slot(0x6)', 'local uint256 value=0x6']
+
+<0xf63c5532>:['Using State(0x2)', 'Using State(0x4)', 'local uint256 value=0xd', 'local uint256 value=0x2', 'local uint256 value=0xffff', 'local uint256 value=0x9', 'local uint256 value=0x10']
+**24** ##26##
+
+Time Consumption: 283.566987 S
+
+==============================================================================================================================

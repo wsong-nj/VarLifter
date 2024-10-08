@@ -1,0 +1,5 @@
+[console_scripts]
+VarLifter = main:main
+
+[gui_scripts]
+VarLifter_gui = gui:main

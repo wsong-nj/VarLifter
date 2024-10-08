@@ -1,0 +1,95 @@
+@@5wrong   
+
+ uint256 public ONE_DAY = 86400;//slot(0)
+    uint256 public MIN_DEP = 1 ether;//slot(1)
+    uint256 public MAX_DEP = 100 ether;//slot(2)
+    address public admin;//slot(3)
+    uint256 public depositedAmountGross = 0;//slot(4)
+    uint256 public paySystemCommissionTimes = 1;//slot(5)
+    uint256 public payDailyIncomeTimes = 1;//slot(6)
+    uint256 public lastPaySystemCommission = now;//slot(7)
+    uint256 public lastPayDailyIncome = now;//slot(8)
+    uint256 public contractStartAt = now;//slot(9)
+    uint256 public lastReset = now;//slot(a)
+    address payable public operationFund = 0xe1483B2b28643D424235D0E5920bD48A563A9737;//slot(b
+    address[] public investorAddresses;//slot(c) wrong
+    bytes32[] public investmentIds;//slot(d)
+    bytes32[] public withdrawalIds;//slot(e)
+    bytes32[] public maxOutIds;//slot(f)
+    mapping (address => Investor) investors;//slot(10) wrong
+    mapping (bytes32 => Investment) public investments;//slot(11) wrong
+    mapping (bytes32 => Withdrawal) public withdrawals;//slot(12) wrong
+    mapping (bytes32 => MaxOut) public maxOuts;//slot(13) wrong
+
+    uint256 public maxLevelsAddSale = 200;//slot(14)
+    uint256 public maximumMaxOutInWeek = 2;//slot(15)
+    bool public importing = true;//slot(16)
+
+    Vote public currentVote;//slot(17)
+
+    struct Vote {
+        uint256 startTime;
+        string reason;
+        mapping (address => uint8) votes;  
+        address payable emergencyAddress;
+        uint256 yesPoint;
+        uint256 noPoint;
+        uint256 totalPoint;
+    }
+
+    struct Investment {
+        bytes32 id;
+        uint256 at;
+        uint256 amount;
+        address investor;
+        address nextInvestor;
+        bool nextBranch;
+    }
+
+    struct Withdrawal {
+        bytes32 id;
+        uint256 at;
+        uint256 amount;
+        address investor;
+        address presentee;
+        uint256 reason;
+        uint256 times;
+    }
+
+    struct Investor {
+         
+        string email;
+        address parent;
+        address leftChild;
+        address rightChild;
+        address presenter;
+         
+        uint256 generation;
+        uint256 depositedAmount;
+        uint256 withdrewAmount;
+        bool isDisabled;
+         
+        uint256 lastMaxOut;
+        uint256 maxOutTimes;
+        uint256 maxOutTimesInWeek;
+        uint256 totalSell;
+        uint256 sellThisMonth;
+         
+        uint256 rightSell;
+        uint256 leftSell;
+        uint256 reserveCommission;
+        uint256 dailyIncomeWithrewAmount;
+        uint256 registerTime;
+        uint256 minDeposit;
+         
+        address[] presentees;
+        bytes32[] investments;
+        bytes32[] withdrawals;
+    }
+
+    struct MaxOut {
+        bytes32 id;
+        address investor;
+        uint256 times;
+        uint256 at;
+    }@@24@@

@@ -1,0 +1,19 @@
+Output for 14_runtime_bytecode.txt:
+
+
+<0x8da5cb5b> address //slot(0x0)
+
+<0x3ccfd60b>:['local uint256 value=0x8fc']
+
+<0x7eece252>:['mapping(address => uint) private //slot(0x1)']
+
+<0xcc6cb19a>:[]
+
+<0xed88c68e>:['mapping(address => uint) private //slot(0x1)']
+
+Time Consumption: 0.142780 S
+**2**##2##
+==============================================================================================================================
+
+
+

@@ -1,0 +1,114 @@
+Output for 7_runtime_bytecode.txt:
+
+
+<0x8da5cb5b> address //slot(0x0)
+
+<0x7762df25> address //slot(0x1)
+
+<0x70a08231> ['mapping(address => (u)int256/bytes32) //slot(0x2)']
+
+<0x18160ddd> uint256 //slot(0x4)
+
+<0xd8270dce> uint256 //slot(0x5)
+
+<0x3e4b2570> address //slot(0x6)
+
+<0x1cb252fe> uint256 //slot(0x7)
+
+<0x4b92b7d> address //slot(0x8)
+
+<0xc14e61ba> uint256 //slot(0x9)
+
+<0x8c3c00aa> uint256 //slot(0xa)
+
+<0xa84f3e5a> uint256 //slot(0xb)
+
+<0x4ce02a33> uint256 //slot(0xc)
+
+<0x51eb5e93> uint256 //slot(0xd)
+
+<0x6816521a> address //slot(0xe)
+
+<0xaf44e487> uint8 //slot(0xe)
+
+<0x75bf772> uint256 //slot(0xf)
+
+<0x75766294> uint256 //slot(0x10)
+
+<0x62b96a18> uint256 //slot(0x11)
+
+<0x3879c9f3> uint256 //slot(0x12)
+
+<0xc31051fe> uint256 //slot(0x13)
+
+<0xabadeb06> uint8 //slot(0x14)
+
+<0xd53b4ab4> address //slot(0x14)
+
+<0xf05ad9f3> uint256 //slot(0x15)
+
+<0x9333cf5e> uint256 //slot(0x16)
+
+<0x4d16dd41> uint256 //slot(0x17)
+
+<0xa01729a4> uint256 //slot(0x18)
+
+<0x6078b87e> uint256 //slot(0x19)
+
+<0x660ef82d> address //slot(0x1a)
+
+<0xd98b094c> uint8 //slot(0x1a)
+
+<0x5b53d291> uint256 //slot(0x1b)
+
+<0x5ad1854b> uint256 //slot(0x1c)
+
+<0x77e5d8f8> uint256 //slot(0x1d)
+
+<0x205e0e26> uint256 //slot(0x1e)
+
+<0x17031f9c> uint256 //slot(0x1f)
+
+<0x417d5fb4> uint8 //slot(0x20)
+
+<0x6fdde03>:['local struct2[uint, uint]', 'private string constant Uincode=0x4e65786f00000000000000000000000000000000000000000000000000000000']
+
+<0x95ea7b3>:[]
+
+<0x13af4035>:['Using State(0x1)', 'storage(0x1)-write']
+
+<0x23b872dd>:['Using State(0x2)', 'mapping(address => mapping(address => uint256)) //slot(0x3)']
+
+<0x313ce567>:['local uint256 value=0x12', 'constant variable (u)int/bytes32 0xff(m)']
+
+<0x4a09d3cf>:['Using State(0x0)', 'Using State(0x8)', 'Using State(0xe)', 'Using State(0x14)', 'Using State(0x1a)', 'Using State(0x2)', 'mapping(address => mapping(address => uint256)) //slot(0x3)']
+
+<0x4ad1cbad>:['Using State(0x0)', 'Using State(0x8)', 'Using State(0x14)', 'Using State(0x1a)', 'Using State(0xe)', 'Using State(0x2)', 'mapping(address => mapping(address => uint256)) //slot(0x3)']
+
+<0x5e8f6597>:['Using State(0x0)', 'Using State(0x6)', 'Using State(0x2)', 'mapping(address => mapping(address => uint256)) //slot(0x3)']
+
+<0x66188463>:['mapping(address => mapping(address => uint256)) //slot(0x3)', 'mapping(address => mapping(address => uint256)) //slot(0x3)', 'mapping(address => mapping(address => uint256)) //slot(0x3)']
+
+<0x92940bf9>:['Using State(0x0)', 'local uint256 value=0x24', 'local uint256 value=0x44']
+
+<0x95d89b41>:['local struct2[uint, uint]', 'private string constant Uincode=0x4e45584f00000000000000000000000000000000000000000000000000000000']
+
+<0x96497258>:['Using State(0x0)', 'Using State(0x8)', 'Using State(0xe)', 'Using State(0x14)', 'Using State(0x1a)', 'Using State(0x2)', 'mapping(address => mapping(address => uint256)) //slot(0x3)']
+
+<0xa9059cbb>:['Using State(0x2)']
+
+<0xd5d1e770>:['Using State(0x1)', 'Using State(0x6)', 'Using State(0x8)', 'Using State(0x0)', 'Using State(0xe)', 'Using State(0x14)', 'Using State(0x1a)', 'mapping(address => mapping(address => uint256)) //slot(0x3)', 'storage(0x1)-write', 'storage(0x0)-write']
+
+<0xd73dd623>:['mapping(address => mapping(address => uint256)) //slot(0x3)']
+
+<0xdd62ed3e>:['Using State(0x0)', 'Using State(0x8)', 'Using State(0xe)', 'Using State(0x14)', 'Using State(0x1a)']
+
+<0xf854d74c>:['Using State(0x0)', 'Using State(0x8)', 'Using State(0xe)', 'Using State(0x1a)', 'Using State(0x14)', 'Using State(0x2)', 'mapping(address => mapping(address => uint256)) //slot(0x3)']
+**36**##36##
+
+Time Consumption: 4.534152 S
+
+==============================================================================================================================
+
+
+

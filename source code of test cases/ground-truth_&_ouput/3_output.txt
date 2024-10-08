@@ -1,0 +1,116 @@
+Output for 3_runtime_bytecode.txt:
+
+
+<0x8da5cb5b> address //slot(0x0)
+
+<0xb9b8af0b> bool //slot(0x0)
+
+<0xfc0c546a> address //slot(0x1)
+
+<0x78b99c24> address //slot(0x2)
+
+<0x21d5c0f6> address //slot(0x3)
+
+<0x9075becf> address //slot(0x4)
+
+<0x13f4e977> uint256 //slot(0x5)
+
+<0xaf468682> uint256 //slot(0x6)
+
+<0xa09284a> uint256 //slot(0x7)
+
+<0x518ab2a8> uint256 //slot(0x8)
+
+<0x4042b66f> uint256 //slot(0x9)
+
+<0xd7e64c00> uint256 //slot(0xa)
+
+<0x797d9437> uint256 //slot(0xb)
+
+<0x5da89ac0> uint256 //slot(0xc)
+
+<0x3ca0eed> bool //slot(0xd)
+
+<0x5b7633d0> address //slot(0xd)
+
+<0xb3f05b97> bool //slot(0xd)
+
+<0xd222dc04> bool //slot(0xd)
+
+<0x1aae3460> ['mapping(address => (u)int256/bytes32) //slot(0xe)']
+
+<0x97b150ca> ['mapping(address => (u)int256/bytes32) //slot(0xf)']
+
+<0xcb16e6d0> ['mapping(address => bool) //slot(0x10)']
+
+<0x226401d> uint256 //slot(0x11)
+
+<0x84fe5029> uint256 //slot(0x12)
+
+<0x3f9c793>:['Using State(0x0)', 'Using State(0x9)', 'Using State(0x8)', 'Using State(0x4)', 'Using State(0xf)', 'local uint256 value=0x2', 'local uint256 value=0x7', 'local uint256 value=0x5', 'local uint256 value=0x3', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x8fc', 'storage(0x9)-write', 'storage(0x8)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x313ce567(m)']
+
+<0x62b01ce>:['Using State(0x2)']
+
+<0x1865c57d>:['Using State(0xd)', 'Using State(0x2)', 'Using State(0x6)', 'Using State(0x7)', 'Using State(0x9)', 'local uint256 value=0x7', 'local uint256 value=0x5', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x5(m)']
+
+<0x19b667da>:['Using State(0x0)', 'Using State(0x3)', 'storage(0x3)-write', 'constant variable (u)int/bytes32 0x614cb904(m)']
+
+<0x1a49803b>:['Using State(0x0)', 'Using State(0x9)', 'Using State(0x8)', 'Using State(0x4)', 'Using State(0xf)', 'local uint256 value=0x14', 'local uint256 value=0x2', 'local uint256 value=0x7', 'local uint256 value=0x5', 'local uint256 value=0x3', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x8fc', 'storage(0x9)-write', 'storage(0x8)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x313ce567(m)', 'local struct1[address]']
+
+<0x32013ac3>:['Using State(0x0)', 'Using State(0x9)', 'Using State(0x8)', 'Using State(0xf)', 'local uint256 value=0xe', 'local uint256 value=0xf', 'storage(0x9)-write', 'storage(0x8)-write', 'constant variable (u)int/bytes32 0x313ce567(m)']
+
+<0x4551dd59>:[]
+
+<0x4bb278f3>:['Using State(0x2)', 'Using State(0x6)', 'Using State(0x7)', 'Using State(0x9)', 'local uint256 value=0x7', 'local uint256 value=0x5', 'storage(0xd)-write', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)']
+
+<0x50c67734>:['Using State(0x0)', 'Using State(0x2)', 'storage(0x2)-write', 'constant variable (u)int/bytes32 0x4bbc255(m)']
+
+<0x590e1ae3>:['Using State(0xd)', 'Using State(0x2)', 'Using State(0x6)', 'Using State(0x7)', 'Using State(0x9)', 'Using State(0xc)', 'Using State(0xe)', 'local uint256 value=0x7', 'local uint256 value=0x5', 'local uint256 value=0xe', 'local uint256 value=0x8fc', 'storage(0xc)-write', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)']
+
+<0x5ed7ca5b>:['storage(0x0)-write']
+
+<0x6e50eb3f>:['Using State(0x0)', 'storage(0x7)-write', 'global variable: timestamp']
+
+<0x7c2e08a3>:['Using State(0x9)']
+
+<0x7f7d711e>:['Using State(0x0)', 'Using State(0xd)', 'storage(0xd)-write']
+
+<0x87612102>:['Using State(0xd)', 'Using State(0x2)', 'Using State(0x6)', 'Using State(0x7)', 'Using State(0x9)', 'Using State(0xb)', 'local uint256 value=0x5', 'local uint256 value=0x7', 'storage(0xb)-write', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)']
+
+<0x8d51faec>:['Using State(0x0)', 'storage(0x11)-write']
+
+<0x99e9376c>:['Using State(0x0)', 'Using State(0x9)', 'Using State(0x8)', 'Using State(0x4)', 'Using State(0xf)', 'local uint256 value=0x2', 'local uint256 value=0x7', 'local uint256 value=0x5', 'local uint256 value=0x3', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x8fc', 'storage(0x9)-write', 'storage(0x8)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x313ce567(m)']
+
+<0x9d3c663f>:['Using State(0x12)']
+
+<0xa293d1e8>:[]
+
+<0xa6f2ae3a>:['Using State(0x0)', 'Using State(0x9)', 'Using State(0x8)', 'Using State(0x4)', 'Using State(0xf)', 'local uint256 value=0x2', 'local uint256 value=0x7', 'local uint256 value=0x5', 'local uint256 value=0x3', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x8fc', 'storage(0x9)-write', 'storage(0x8)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x313ce567(m)']
+
+<0xa7ba44c3>:['Using State(0x3)', 'constant variable (u)int/bytes32 0x82771c8e(m)']
+
+<0xcb3e64fd>:['storage(0x0)-write']
+
+<0xd05c78da>:[]
+
+<0xd5d09021>:['Using State(0x9)']
+
+<0xe6cb9013>:[]
+
+<0xeac24932>:['Using State(0x0)', 'Using State(0x10)', 'local uint256 value=0x10']
+
+<0xed68ff2c>:['Using State(0x0)', 'Using State(0xd)', 'storage(0xd)-write']
+
+<0xef869443>:['Using State(0x0)', 'Using State(0x9)', 'Using State(0x8)', 'Using State(0x4)', 'Using State(0xf)', 'local uint256 value=0x2', 'local uint256 value=0x7', 'local uint256 value=0x5', 'local uint256 value=0x3', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x8fc', 'storage(0x9)-write', 'storage(0x8)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x313ce567(m)']
+
+<0xf2fde38b>:['Using State(0x0)']
+
+<0xf4869726>:['Using State(0x0)', 'Using State(0x9)', 'Using State(0x8)', 'Using State(0x4)', 'Using State(0xf)', 'local uint256 value=0x14', 'local uint256 value=0x2', 'local uint256 value=0x7', 'local uint256 value=0x5', 'local uint256 value=0x3', 'local uint256 value=0xe', 'local uint256 value=0xf', 'local uint256 value=0x8fc', 'storage(0x9)-write', 'storage(0x8)-write', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'global variable: timestamp', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x82771c8e(m)', 'constant variable (u)int/bytes32 0x313ce567(m)', 'local struct1[address]']
+**23**##23##
+
+Time Consumption: 16.832460 S
+
+==============================================================================================================================
+
+
+

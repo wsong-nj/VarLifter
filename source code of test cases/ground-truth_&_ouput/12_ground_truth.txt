@@ -1,0 +1,18 @@
+@@@1 wrong
+
+    mapping (address => uint256) balances;//slot(0)
+    mapping (address => mapping (address => uint256)) allowed;//slot(1)
+
+
+    string public name = "Winsshar";//slot(2)
+    string public symbol = "WSR";//slot(3)
+    uint256 public decimals = 6;//slot(4)
+    uint256 public maxSupply = 100000000000000000;//slot(5)
+    uint256 public totalSupply = 1000000000000000;//slot(6)
+    uint256 public administrativeSupply = 20000000000000;//slot(7)
+    address owner;//slot(8)
+    address admin;//slot(9) wrong
+
+    mapping (uint256 => address) public downloaders;//slot(a)
+    uint256 public numberOfDownloaders;//slot(b)
+    @@12@@

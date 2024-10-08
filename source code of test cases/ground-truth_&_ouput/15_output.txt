@@ -1,0 +1,23 @@
+==============================================================================================================================
+
+
+
+Output for 15_runtime_bytecode.txt:
+
+
+<0xce7c2ac2> ['mapping(address => (u)int256/bytes32) //slot(0x0)']
+
+<0x70a08231> ['mapping(address => (u)int256/bytes32) //slot(0x1)']
+
+<0x3a98ef39> uint256 //slot(0x2)
+
+<0xad7a672f> uint256 //slot(0x3)
+
+<0x4ba8ae81>:['Using State(0x2)', 'Using State(0x3)', 'local uint256 value=0x8fc', 'storage(0x2)-write', 'storage(0x3)-write']
+
+<0xd1a93d18>:['Using State(0x2)', 'Using State(0x3)', 'storage(0x2)-write', 'storage(0x3)-write']
+**4**##4##
+Time Consumption: 0.044577 S
+
+==============================================================================================================================
+

@@ -1,0 +1,14 @@
+    
+@@all right
+
+    address public owner;  //slot(0x0)
+    address public newOwner; //slot(0x1)
+
+    string public symbol;//slot(0x2)
+    string public  name;//slot(0x3)
+    uint8 public decimals;//slot(0x4)
+    uint public _totalSupply;//slot(0x5)
+
+    mapping(address => uint) balances;//slot(0x6)
+    mapping(address => mapping(address => uint)) allowed;//slot(0x7)
+    @@8@@

@@ -1,0 +1,20 @@
+
+@@all right
+
+    address public owner;//slot(0)
+    address public newOwner;//slot(1)
+
+
+
+    string public symbol;//slot(2)
+    string public name;//slot(3)
+    uint8 public decimals;//slot(4)
+    uint public stage1Ends;//slot(5)
+    uint public stage2Ends;//slot(6)
+   uint public amountRaised;//slot(7)
+   uint private _totalSupply;//slot(8)
+   uint private _minPaymentAmount;//slot(9)
+	
+    mapping(address => uint) balances;//slot(a)
+    mapping(address => mapping(address => uint)) allowed;//slot(b)
+    @@12@@
