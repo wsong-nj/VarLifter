@@ -932,6 +932,14 @@ class EVM:
         elif opcode_name == 'JUMPDEST':  # 0x5b
             pass
                 #self.pc += 1
+
+        elif opcode_name == 'PUSH0':  # 0x5f
+            self.stack.push('0')
+            
+            self.context.push('%s_%s' % (pc, self.stack))
+            if len(self.context) != len(self.stack):
+                raise Exception("Dual stack height inconsistency")
+            self.ins_handler.handle_push_instruction(operand, self.context[-1], block)   
             
         elif opcode_name == 'PUSH1':  # 0x60
             self.stack.push(operand)

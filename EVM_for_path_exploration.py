@@ -508,6 +508,9 @@ class EVM:
             elif opcode_name == 'JUMPDEST':  # 0x5b
                 pass
                 #self.pc += 1
+
+            elif opcode_name == 'PUSH0':  # 0x5F
+                self.stack.push('0')
             
             elif opcode_name == 'PUSH1':  # 0x60
                 """data = self.code[self.pc + 1:self.pc + 2]
