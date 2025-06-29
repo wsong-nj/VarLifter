@@ -54,6 +54,8 @@ opcodes = {
     0x46: "CHAINID",
     0x47: "SELFBALANCE",
     0x48: "BASEFEE",
+    0x49: "BLOBHASH",
+    0x4a: "BLOBBASEFEE",
 
 	0x50: "POP",
 	0x51: "MLOAD",
@@ -67,7 +69,11 @@ opcodes = {
 	0x59: "MSIZE",
 	0x5a: "GAS",
 	0x5b: "JUMPDEST",
-
+	0x5c: "TLOAD",
+	0x5d: "TSTORE",    
+	0x5e: "MCOPY",    
+	0x5f: "PUSH0",    
+    
 	0x60: "PUSH1",
 	0x61: "PUSH2",
 	0x62: "PUSH3",
@@ -84,6 +90,7 @@ opcodes = {
 	0x6d: "PUSH14",
 	0x6e: "PUSH15",
 	0x6f: "PUSH16",
+    
 	0x70: "PUSH17",
 	0x71: "PUSH18",
 	0x72: "PUSH19",
@@ -212,6 +219,9 @@ actions = {
     "CHAINID": (0, 1),
     "SELFBALANCE": (0, 1),
     "BASEFEE": (0, 1),
+    "BLOBHASH": (1, 1),
+    "BLOBBASEFEE": (0, 1),    
+    
 	"POP": (1, 0),
 	"MLOAD": (1, 1),
 	"MSTORE": (2, 0),
@@ -224,6 +234,11 @@ actions = {
 	"MSIZE": (0, 1),
 	"GAS": (0, 1),
 	"JUMPDEST": (0, 0),
+    
+    "TLOAD": (1, 1),
+    "TSTORE": (2, 0),
+    "MCOPY": (3, 0),
+    "PUSH0": (0, 1),
 
 	"PUSH1": (0, 1, 1),
 	"PUSH2": (0, 1, 2),
@@ -472,6 +487,7 @@ mem_read_ops = {
 order_ops = {
 	"GAS",
 	"BALANCE",
+    "PUSH0",
 	"MSIZE"
 }
 
